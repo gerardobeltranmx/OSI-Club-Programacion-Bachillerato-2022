@@ -27,6 +27,9 @@ int main()
     case 2:
       cout << "INVIERNO" << endl;
       break;
+    default:
+      cout << "ERROR" <<endl;
+      break;
   }
 
   return 0;
