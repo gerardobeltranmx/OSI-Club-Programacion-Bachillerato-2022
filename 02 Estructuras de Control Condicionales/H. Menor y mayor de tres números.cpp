@@ -1,13 +1,11 @@
 #include <iostream>
-
 using namespace std;
-
 int main()
 {
   int a,b,c;
   cin >> a  >> b >> c;
   // Buscando menor
-  if (a < b and a < c){
+  if (a < b and a < c){ 
     cout << a << endl;
   }
   else if (b < a and b < c){
